@@ -52,21 +52,21 @@
 
   "Estantes": [
     { 
-      "condigo_estante": 001, 
+      "condigo_estante": 1, 
       "ubicacion": "A", 
       "tema": "Ciencia", 
       "material": "Madera", 
       "cantidad_libros": "50"
     },
     { 
-      "condigo_estante": 002, 
+      "condigo_estante": 2, 
       "ubicacion": "B", 
       "tema": "Literatura", 
       "material": "Metal", 
       "cantidad_libros": "40"
     },
     { 
-      "condigo_estante": 003, 
+      "condigo_estante": 3, 
       "ubicacion": "C", 
       "tema": "Historia", 
       "material": "Madera", 
@@ -76,7 +76,7 @@
 
   "Prestamos": [
     { 
-      "codigo_prestamo": 001, 
+      "codigo_prestamo": 1, 
       "codigo_libro": "1", 
       "codigo_estudiante": "STU001", 
       "fecha_prestamo": "08-08-2024", 
@@ -84,7 +84,7 @@
       "fecha_actual_devo": "12-08-2024"
     },
     { 
-      "codigo_prestamo": 002, 
+      "codigo_prestamo": 2, 
       "codigo_libro": "2", 
       "codigo_estudiante": "STU002", 
       "fecha_prestamo": "22-12-2024", 
@@ -92,7 +92,7 @@
       "fecha_actual_devo": "30-12-2024"
     },
     { 
-      "codigo_prestamo": 003, 
+      "codigo_prestamo": 3, 
       "codigo_libro": "3", 
       "codigo_estudiante": "STU003", 
       "fecha_prestamo": "16-09-2024", 
