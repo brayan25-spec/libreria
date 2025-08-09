@@ -1,11 +1,103 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
+  "Libros": [
+    { 
+      "codigo_libro": 1, 
+      "titulo": "Introducción a la Física", 
+      "autor": "Albert Einstein", 
+      "isbn": "978-1234567890",
+      "año_publicacion": "2005",
+      "codigo_estante": "001",
+      "disponible": "TRUE"
+    },
+    { 
+      "codigo_libro": 2, 
+      "titulo": "Cien años de soledad", 
+      "autor": "Gabriel García Márquez", 
+      "isbn": "978-8437604947",
+      "año_publicacion": "1967",
+      "codigo_estante": "002",
+      "disponible": "TRUE"
+    },
+    { 
+      "codigo_libro": 3, 
+      "titulo": "El Principito", 
+      "autor": "Antoine de Saint-Exupéry", 
+      "isbn": "978-0156012195",
+      "año_publicacion": "1943",
+      "codigo_estante": "003",
+      "disponible": "FALSE"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+
+  "Estudiantes": [
+    { 
+      "identificacion": 1000965877, 
+      "nombre": "Ana Pérez", 
+      "email": "ana.perez@example.com", 
+      "codigo_estudiante": "STU001"
+    },
+    { 
+      "identificacion": 1002458796, 
+      "nombre": "Carlos Gómez", 
+      "email": "carlos.gomez@example.com", 
+      "codigo_estudiante": "STU002"
+    },
+    { 
+      "identificacion": 1003645872, 
+      "nombre": "Laura Martínez", 
+      "email": "laura.martinez@example.com", 
+      "codigo_estudiante": "STU003"
+    }
+  ],
+
+  "Estantes": [
+    { 
+      "condigo_estante": 001, 
+      "ubicacion": "A", 
+      "tema": "Ciencia", 
+      "material": "Madera", 
+      "cantidad_libros": "50"
+    },
+    { 
+      "condigo_estante": 002, 
+      "ubicacion": "B", 
+      "tema": "Literatura", 
+      "material": "Metal", 
+      "cantidad_libros": "40"
+    },
+    { 
+      "condigo_estante": 003, 
+      "ubicacion": "C", 
+      "tema": "Historia", 
+      "material": "Madera", 
+      "cantidad_libros": "60"
+    }
+    ],
+
+  "Prestamos": [
+    { 
+      "codigo_prestamo": 001, 
+      "codigo_libro": "1", 
+      "codigo_estudiante": "STU001", 
+      "fecha_prestamo": "08-08-2024", 
+      "fecha_estimada_devo": "12-08-2024", 
+      "fecha_actual_devo": "12-08-2024"
+    },
+    { 
+      "codigo_prestamo": 002, 
+      "codigo_libro": "2", 
+      "codigo_estudiante": "STU002", 
+      "fecha_prestamo": "22-12-2024", 
+      "fecha_estimada_devo": "26-12-2024", 
+      "fecha_actual_devo": "30-12-2024"
+    },
+    { 
+      "codigo_prestamo": 003, 
+      "codigo_libro": "3", 
+      "codigo_estudiante": "STU003", 
+      "fecha_prestamo": "16-09-2024", 
+      "fecha_estimada_devo": "20-09-2024", 
+      "fecha_actual_devo": "16-09-2024"
+    }
+    ],
 }
